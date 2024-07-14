@@ -1,103 +1,106 @@
-# E-Banking-App 🌐💳
+Bien sûr ! Voici une version révisée du fichier README pour votre projet GitHub digital-banking-App :
 
-E-Banking-App is a modern online banking application built with Angular. This project aims to provide essential banking services through a user-friendly interface.
-![Dark Light Mode](./src/assets/ScreenShots/light-dark.png)
+---
 
-## Features ✨
+# digital-banking-App 
 
-- **User Authentication**: Secure login and registration using JWT.
-- **Account Management**: View and manage account details, balance, and transactions.
-- **Transaction Management**: Perform fund transfers and view transaction history.
-- **Admin Panel**: Manage users and view system logs.
-- **Responsive Design**: Optimized for various devices.
+digital-banking-App est une application bancaire en ligne moderne construite avec Angular. Ce projet vise à fournir des services bancaires essentiels via une interface conviviale.
+![Mode Clair Sombre](./src/assets/ScreenShots/light-dark.png)
 
-## Technologies Used 🛠️
+## Fonctionnalités ✨
 
-- **Frontend**: Angular
-- **Authentication**: JWT
+- **Authentification Utilisateur** : Connexion et inscription sécurisées utilisant JWT.
+- **Gestion de Compte** : Voir et gérer les détails du compte, le solde et les transactions.
+- **Gestion des Transactions** : Effectuer des transferts de fonds et consulter l'historique des transactions.
+- **Panneau d'Administration** : Gérer les utilisateurs et consulter les journaux du système.
+- **Design Responsive** : Optimisé pour différents appareils.
+
+## Technologies Utilisées 🛠️
+
+- **Frontend** : Angular
+- **Authentification** : JWT
 
 ## Installation 🚀
 
-### Prerequisites 📋
+### Prérequis 📋
 
-- Node.js and npm
+- Node.js et npm
 - Angular CLI
 
-### Steps 🔧
+### Étapes 🔧
 
-1. **Clone the repository**
+1. **Cloner le dépôt**
     ```bash
     git clone 
-    cd E-Banking-App
+    cd digital-banking-App
     ```
 
-2. **Frontend Setup**
-    - Navigate to the project directory
-    - Install the required dependencies
+2. **Configuration du Frontend**
+    - Naviguez dans le répertoire du projet
+    - Installez les dépendances requises
     ```bash
     npm install
     ```
-    - Start the frontend server
+    - Démarrez le serveur frontend
     ```bash
     ng serve
     ```
 
-## Usage 💡
+## Utilisation 💡
 
-Once the frontend server is running, you can access the application at `http://localhost:4200`.
+Une fois le serveur frontend démarré, vous pouvez accéder à l'application à l'adresse `http://localhost:4200`.
 
-### API Endpoints 🔗
+### Points de terminaison API 🔗
 
-- **User Authentication**
-  - `POST /auth/login`: Authenticate a user
+- **Authentification Utilisateur**
+  - `POST /auth/login` : Authentifie un utilisateur
 
-- **Account Management**
-  - `GET /accounts`: Retrieve user accounts
+- **Gestion de Compte**
+  - `GET /accounts` : Récupère les comptes utilisateur
 
-- **Customer Management**
-  - `GET /customers`: Retrieve user accounts
+- **Gestion des Clients**
+  - `GET /customers` : Récupère les comptes utilisateur
 
-- **Transaction Management**
-  - `GET /operations`: Retrieve operations history
+- **Gestion des Transactions**
+  - `GET /operations` : Récupère l'historique des opérations
 
-## Project Structure 📁
+## Structure du Projet 📁
 
 ### Frontend (Angular)
-- **`src/app`**: Contains the main application code
-  - **`layout`**: Layout components (sidebar, topbar, etc.)
-  - **`services`**: Angular services for API calls
-  - **`models`**: Data models
-  - **`accounnts`**: View and manage accounts
-  - **`customers`**: View and manage customers
-  - **`operations`**: View and manage operations
-  - **`admin`**: Contain admin components as children
-  - **`account-history`**: View an account history
-  - **`customer-accounts`**: View and manage a customer accounts
-  - **`guards`**: Project guards
-  - **`interceptors`**: Project interceptors
-  - **`login`**: User login
-  - **`not-auth`**: Not authenticated page
-  - **`notfound`**: Not found page
-## Screenshots
+- **`src/app`** : Contient le code principal de l'application
+  - **`layout`** : Composants de mise en page (barre latérale, barre supérieure, etc.)
+  - **`services`** : Services Angular pour les appels API
+  - **`models`** : Modèles de données
+  - **`accounts`** : Visualiser et gérer les comptes
+  - **`customers`** : Visualiser et gérer les clients
+  - **`operations`** : Visualiser et gérer les opérations
+  - **`admin`** : Contient les composants admin en tant qu'enfants
+  - **`account-history`** : Voir l'historique d'un compte
+  - **`customer-accounts`** : Voir et gérer les comptes d'un client
+  - **`guards`** : Gardiens du projet
+  - **`interceptors`** : Intercepteurs du projet
+  - **`login`** : Connexion utilisateur
+  - **`not-auth`** : Page non authentifiée
+  - **`notfound`** : Page non trouvée
 
-![Dark dashboard](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-15-37.png)
-![Light dashboard](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-15-44.png)
-![Customers](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-04-51.png)
-![Accounts](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-04-58.png)
-![Operations](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-05-02.png)
-![Update customer](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-05-23.png)
-![Delete Customer](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-05-30.png)
-![Customer bank account](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-05-46.png)
+## Captures d'Écran
 
-## Contributing 🤝
+![Tableau de bord sombre](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-15-37.png)
+![Tableau de bord clair](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-15-44.png)
+![Clients](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-04-51.png)
+![Comptes](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-04-58.png)
+![Opérations](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-05-02.png)
+![Mise à jour du client](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-05-23.png)
+![Suppression du client](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-05-30.png)
+![Compte bancaire du client](./src/assets/ScreenShots/Screenshot%20from%202024-06-26%2016-05-46.png)
 
-Contributions are welcome! Please follow these steps to contribute:
+## Contribuer 🤝
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Create a new Pull Request
+Les contributions sont les bienvenues ! Veuillez suivre ces étapes pour contribuer :
 
-
+1. Forkez le dépôt
+2. Créez une nouvelle branche (`git checkout -b feature-branch`)
+3. Commitez vos modifications (`git commit -am 'Add new feature'`)
+4. Poussez sur la branche (`git push origin feature-branch`)
+5. Créez une nouvelle Pull Request
 
